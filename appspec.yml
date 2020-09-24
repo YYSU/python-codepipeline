@@ -7,8 +7,8 @@ hooks:
   Install:
     - location: scripts/compile_java
       timeout: 300
-      runas: root
+      runas: ec2-user
   ApplicationStart:
     - location: scripts/run_java
       timeout: 300
-      runas: root
+      runas: ec2-user
