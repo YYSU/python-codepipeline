@@ -1,0 +1,10 @@
+version: 0.0
+os: linux
+files:
+  - source: /app.py
+    destination: /
+hooks:
+  BeforeInstall:
+    - location: scripts/start_print
+      timeout: 300
+      runas: root
