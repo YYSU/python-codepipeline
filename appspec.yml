@@ -4,7 +4,7 @@ files:
   - source: /CreateFile.java
     destination: /home/ec2-user/
 hooks:
-  Install:
+  AfterInstall:
     - location: scripts/compile_java
       timeout: 300
       runas: root
