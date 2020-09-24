@@ -1,2 +1,2 @@
 #!/bin/bash
-/home/ec2-user/jdk1.8.0_131/bin/javac /home/ec2-user/CreateFile.java
+/home/ec2-user/jdk1.8.0_131/bin/javac /home/ec2-user/HelloWorld.java
