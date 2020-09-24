@@ -1,0 +1,2 @@
+#!/bin/bash
+javac /home/ec2-user/CreateFile.java
